@@ -1,16 +1,47 @@
-# React + Vite
+# 🎵 Spotify Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Spotify Clone built using React.js, React Router, Context API, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎵 Play and Pause Music
+- ⏭️ Next and Previous Song
+- 🎨 Dynamic Album Background
+- 📊 Seek Bar with Current Time
+- 📱 Responsive User Interface
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- React Router
+- Context API
+- Tailwind CSS
+- Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+├── context/
+├── assets/
+├── App.jsx
+├── main.jsx
+```
+
+## ▶️ Run the Project
+
+```bash
+npm install
+npm run dev
+```
+
+## 📖 Project Flow
+
+1. `main.jsx` renders the application.
+2. `PlayerContext` manages all music-related state.
+3. `Home.jsx` renders the main layout.
+4. `Display.jsx` handles routing.
+5. `Player.jsx` controls audio playback.
+6. Songs are played using the HTML `<audio>` element.
+
