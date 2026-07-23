@@ -10,32 +10,6 @@ A Spotify Clone built using React.js, React Router, Context API, and Tailwind CS
 - 📊 Seek Bar with Current Time
 - 📱 Responsive User Interface
 
-## 🛠️ Technologies Used
-
-- React.js
-- React Router
-- Context API
-- Tailwind CSS
-- Vite
-
-## 📂 Project Structure
-
-```
-src/
-├── components/
-├── context/
-├── assets/
-├── App.jsx
-├── main.jsx
-```
-
-## ▶️ Run the Project
-
-```bash
-npm install
-npm run dev
-```
-
 ## 📖 Project Flow
 
 1. `main.jsx` renders the application.
